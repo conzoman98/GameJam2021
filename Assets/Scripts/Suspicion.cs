@@ -5,7 +5,6 @@ using UnityEngine;
 public class Suspicion : MonoBehaviour
 {
     public int suspicionLvl = 0;
-    public int suspicionMultiplier;
 
     public int getSuspicion()
     {
