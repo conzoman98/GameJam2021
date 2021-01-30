@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8621234861212157635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8621234861212157637}
+  - component: {fileID: 8621234861212157636}
+  m_Layer: 0
+  m_Name: Voice 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8621234861212157637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621234861212157635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 298.86948, y: 453.32697, z: 89.310425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8621234861212157636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621234861212157635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd1f6a0fa44d4b45aaa9224a193b2c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intro: {fileID: 8300000, guid: 5521170e516c285429dad6e673302118, type: 3}
+  red: {fileID: 8300000, guid: c0702e4f470b14948a23901ce996b7d6, type: 3}
+  blue: {fileID: 8300000, guid: 49c4effffdad27f4bb1ef448e86ff3dc, type: 3}
+  green: {fileID: 8300000, guid: 431ece4da7152b743821e002327bf372, type: 3}
+  yellow: {fileID: 8300000, guid: 88495ac36bb32a74ca5f7bea1a623958, type: 3}
+  broken: {fileID: 8300000, guid: 3e84f018f2a421348906ef841571f5a7, type: 3}
+  rusty: {fileID: 8300000, guid: b0a9692183014e44db7afcf670a3add9, type: 3}
+  shiny: {fileID: 8300000, guid: 0e11ae5d89a87c443be3598af90ba778, type: 3}
+  standard: {fileID: 8300000, guid: 7f8f1c9e78ebb6447b0a93ab774da0e6, type: 3}
+  triangle: {fileID: 8300000, guid: 2b26343d7d4da9343bddb3e6b5393cc7, type: 3}
+  circle: {fileID: 8300000, guid: e30ad62fdeadb534e944f7e96cc9b70a, type: 3}
+  square: {fileID: 8300000, guid: 9830b8d8958d8c6468373746c8e259b3, type: 3}
+  freeform: {fileID: 8300000, guid: b3ef4df9350af2243baf3c8165cbe3b3, type: 3}
