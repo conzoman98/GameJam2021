@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-01-30T13:11:39.769+00:00
+  initializedAtString: 2021-01-30T13:11:39.756+00:00
+  localBranches:
+  - name: master
+    tracking: origin/master
+  - name: object-script
+    tracking: origin/object-script
+  - name: speech-generation
+    tracking: 
+  - name: speech-generation-from-object
+    tracking: origin/speech-generation-from-object
+  - name: user-interface
+    tracking: origin/user-interface
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/object-script
+    tracking: '[None]'
+  - name: origin/PangersBranch
+    tracking: '[None]'
+  - name: origin/speech-generation-from-object
+    tracking: '[None]'
+  - name: origin/user-interface
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/conzoman98/GameJam2021.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - master
+    - object-script
+    - speech-generation
+    - speech-generation-from-object
+    - user-interface
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/conzoman98/GameJam2021.git
+      trackingBranch: master
+    - name: object-script
+      remote:
+        name: origin
+        url: https://github.com/conzoman98/GameJam2021.git
+      trackingBranch: object-script
+    - name: speech-generation
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: speech-generation-from-object
+      remote:
+        name: origin
+        url: https://github.com/conzoman98/GameJam2021.git
+      trackingBranch: speech-generation-from-object
+    - name: user-interface
+      remote:
+        name: origin
+        url: https://github.com/conzoman98/GameJam2021.git
+      trackingBranch: user-interface
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+      - object-script
+      - PangersBranch
+      - speech-generation-from-object
+      - user-interface
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/conzoman98/GameJam2021.git
+        trackingBranch: 
+      - name: object-script
+        remote:
+          name: origin
+          url: https://github.com/conzoman98/GameJam2021.git
+        trackingBranch: 
+      - name: PangersBranch
+        remote:
+          name: origin
+          url: https://github.com/conzoman98/GameJam2021.git
+        trackingBranch: 
+      - name: speech-generation-from-object
+        remote:
+          name: origin
+          url: https://github.com/conzoman98/GameJam2021.git
+        trackingBranch: 
+      - name: user-interface
+        remote:
+          name: origin
+          url: https://github.com/conzoman98/GameJam2021.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/conzoman98/GameJam2021.git
